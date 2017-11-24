@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://knilider.org/</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/index.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/galeria.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/rekrutacja.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/partnerzy.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/sklad.php</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/statut.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+<url>
+  <loc>http://knilider.org/kontakt.htm</loc>
+  <changefreq>always</changefreq>
+</url>
+</urlset>
