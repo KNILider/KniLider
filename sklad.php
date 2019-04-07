@@ -63,7 +63,6 @@
             <li><a href="./kontakt.htm">Kontakt</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://www.lwd2017.pl/" target="_blank">L<font color="#E50E30">!</font>der Workshop Days</a></li>
             <li><a href="http://liderferencja.pl/" target="_blank">L<font color="#E50E30">!</font>derferencja</a></li>
           </ul>
         </div>
@@ -82,7 +81,7 @@
     </div>
 
   <?php
-  $members = file('./assets/sklad1718.csv');
+  $members = file('./assets/sklad1819.csv');
   $length = count($members);
 
   foreach($members as $member) {
@@ -111,6 +110,28 @@
   <!--- END CURRENT PEOPLE -->
 
   <!--- START PAST PEOPLE -->
+
+  <!--- START 2017/18 -->
+  <h2 data-toggle="" data-target="#sklad16" class="text-center exo col-xs-12 marginmargin">Skład 2017/18</h2>
+  <div id="sklad17" class="">
+  <?php
+  $members = file('./assets/sklad1718.csv');
+  $length = count($members);
+
+  foreach($members as $member) {
+    $data = explode(";", $member);
+
+    $name = $data[0];
+
+    echo '
+    <div class="center">
+    <h4 class="col-md-4 col-sm-6">'.$name.'</h4>
+    </div>
+    ';
+    }
+  ?>
+  </div>
+  <!--- END 2017/18 -->
 
   <!--- START 2016/17 -->
   <h2 data-toggle="" data-target="#sklad16" class="text-center exo col-xs-12 marginmargin">Skład 2016/17</h2>
